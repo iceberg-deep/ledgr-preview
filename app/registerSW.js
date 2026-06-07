@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/ledgr-preview/app/sw.js', { scope: '/ledgr-preview/app/' })})}
